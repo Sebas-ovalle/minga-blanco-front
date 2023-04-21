@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-    <main className='min-h-screen'>
+    <main className='md-min-h-screen'>
     <header>
       <div className ='w-full h-96 bg-[url(/src/assets/images/fondo-container.png)] bg-no-repeat bg-cover bg-center'>
 
@@ -53,7 +53,7 @@ function App() {
        <div className ='w-full flex justify-center mt-10'>
           <img src="/src/assets/images/Rectangle-14.png" className='w-screen rounded-bl-full rounded-br-full' alt="" />
        </div>
-       <div className ='w-full flex justify-center '>
+       <div className ='w-10/12 flex justify-center '>
 
         <div className ='w-10/12 flex justify-between mt-6'>
         <div className='w-2/12 flex justify-around'>
@@ -74,3 +74,4 @@ function App() {
 }
 
 export default App
+

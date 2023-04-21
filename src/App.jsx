@@ -8,26 +8,67 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <main className='min-h-screen'>
+    <header>
+      <div className ='w-full h-96 bg-[url(/src/assets/images/fondo-container.png)] bg-no-repeat bg-cover bg-center'>
+
+        <div className='flex justify-between p-6'>
+         <img src="/src/assets/images/Menu.png" alt="" /> 
+         <img src="/src/assets/images/Logo.png" alt="" />
+        </div>
+
+        <div className='w-full flex justify-center items-center flex-col'>
+          <div className='flex justify-center items-center flex-col p-2 '>
+            <img src="/src/assets/images/favorite.png" alt="" />
+            <img src="/src/assets/images/catalog.png" alt="" />
+            <img src="/src/assets/images/button read.png" alt="" />
+           </div>
+        </div>
       </div>
-      <h1>bienvenido a mindhub</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+      </header>
+      
+      <div className='w-full flex justify-center mt-6'>
+
+        <div className='w-full flex bg-[url(/src/assets/images/frame.png)] bg-no-repeat bg-cover bg-center m-6'>
+
+          <div className='w-6/12 flex justify-around items-center'>
+           <div className='flex justify-center '>
+          <img src="/src/assets/images/person.png" alt="" />
+          </div>
+          <div className='flex justify-center '>
+          <img className='mb-10' src="/src/assets/images/image-3.png" alt="" />
+          </div>
+          
+
+          </div>
+
+          <div className='w-6/12 flex items-center'>
+          <img src="/src/assets/images/Frame-text.png" alt="" />
+          </div>
+        </div>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      </main>
+      <footer>
+
+       <div className ='w-full flex justify-center mt-10'>
+          <img src="/src/assets/images/Rectangle-14.png" className='w-screen rounded-bl-full rounded-br-full' alt="" />
+       </div>
+       <div className ='w-full flex justify-center '>
+
+        <div className ='w-10/12 flex justify-between mt-6'>
+        <div className='w-2/12 flex justify-around'>
+        <h2>Home</h2>
+        <h2>Mangas</h2>
+        </div>
+        <img src="/src/assets/images/Frame-logo.png" alt="" />
+        <img src="/src/assets/images/Frame-sociales.png" alt="" />
+        
+        </div>
+
+       </div>
+       
+      </footer>
+      
     </>
   )
 }

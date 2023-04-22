@@ -5,7 +5,11 @@ module.exports = {
         './src//*.{js,jsx,ts,tsx}'  //esto también es una forma de englobar subdirectorios
     ],
     theme: {
-        extend: {}
+        extend: {
+            screens:{
+                'xsm': {'min': '320px', 'max': '767px'}
+              },
+        }
     },
     variants: {},
     plugins: []

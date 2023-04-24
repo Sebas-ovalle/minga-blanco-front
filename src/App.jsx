@@ -54,7 +54,9 @@ function App() {
           </div>
 
           <div className='w-6/12 flex items-center xsm:hidden'>
+
           <img src="/images/Frame-text.png" alt=""className="m-3" />
+
           </div>
         </div>
       </div>
@@ -63,8 +65,10 @@ function App() {
       <footer>
 
        <div className ='w-full flex justify-center mt-10 xsm:hidden'>
+
           <img src="/images/Rectangle-14.png" className='w-screen h-64 rounded-bl-full rounded-br-full xsm:hidden' alt="" />
        </div>
+
        <div className ='w-12/12 flex justify-center mb-6 xsm:hidden'>
 
         <div className ='w-10/12 flex justify-between mt-6 xsm:hidden'>
@@ -74,8 +78,10 @@ function App() {
         <h2>Mangas</h2>
         </div>
 
+
         <img src="/images/Frame-logo.png" alt="" />
         <img src="/images/Frame-sociales.png" alt="" />
+
         
          </div>
          </div>
@@ -91,16 +97,18 @@ function App() {
           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/></svg>
           </div>
           <div className='xsm:m-3 lg:hidden'>
+
           <img src="/images/logo.png" alt="" className='xsm:w-8 xsm:h-8' />
+
           </div>
           </div>
 
           <div className='xsm:w-full xsm:h-16 xsm:flex xsm:justify-center xsm:flex-col'>
 
-              
               <img src="/images/favorite-movile.png" alt="" className='xsm:m-4' />
 
               <img src="/images/text-movile.png" alt="" className='xsm:m-4' />
+
 
               <div className="xsm:self-center xsm:m-6 xsm:h-32 md:hidden"><button className="xsm:rounded-3xl xsm:text-white xsm:bg-gradient-to-b xsm:from-[#564ae7] xsm:to-[#564ae9] xsm:h-12 xsm:w-64">Stared</button></div>
 

@@ -1,3 +1,4 @@
+import apiUrl from '../api'
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -5,12 +6,12 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  console.log(apiUrl)
+  console.log(process.env.NODE_ENV)
 
   return (
     <>
-
-    <main className='min-h-screen xsm:hidden'>
-
+    
     <header>
       <div className ='w-full h-96 bg-[url(/src/assets/images/fondo-container.png)] bg-no-repeat bg-cover bg-center xsm:hidden'>
 
@@ -25,6 +26,7 @@ function App() {
           </div>
 
 
+
         <div className='w-full flex justify-center items-center flex-col xsm:hidden'>
           <div className='flex justify-center items-center flex-col p-2 xsm:hidden '>
             <img src="/src/assets/images/favorite.png" alt="" className="m-4"/>
@@ -35,6 +37,7 @@ function App() {
         </div>
       </div>
       </header>
+      <main className='min-h-screen xsm:hidden'>
       
       <div className='w-full flex justify-center mt-6 xsm:hidden'>
 
@@ -56,6 +59,7 @@ function App() {
         </div>
       </div>
       </main>
+
       <footer>
 
        <div className ='w-full flex justify-center mt-10 xsm:hidden'>
@@ -64,22 +68,20 @@ function App() {
 
        <div className ='w-12/12 flex justify-center mb-6 xsm:hidden'>
 
-       <div className ='w-10/12 flex justify-center '>
-
-
         <div className ='w-10/12 flex justify-between mt-6 xsm:hidden'>
+
+
         <div className='w-2/12 flex justify-around items-center xsm:hidden'>
         <h2>Home</h2>
         <h2>Mangas</h2>
         </div>
+
         <img src="/src/assets/images/Frame-logo.png" alt="" />
         <img src="/src/assets/images/Frame-sociales.png" alt="" />
         
-        </div>
-
-       </div>
-       
-      </footer>
+         </div>
+         </div>
+        </footer>
 
      {/* movile */}
     
@@ -107,21 +109,10 @@ function App() {
           </div>
 
         </div>
-          
-        
 
-    
-
-     
-      
-       
-
-
-     
-      
     </>
+  
   )
-}
-
+}  
 export default App
 

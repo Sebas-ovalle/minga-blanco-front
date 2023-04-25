@@ -21,7 +21,7 @@ function App() {
           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/></svg>
           </div>
           <div className=''>
-          <img src="/images/logo.png" alt="" className='w-10 h-10' />
+          <img src="/images/Logo.png" alt="" className='w-10 h-10' />
           </div>
           </div>
 
@@ -91,7 +91,7 @@ function App() {
           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/></svg>
           </div>
           <div className='xsm:m-3 lg:hidden'>
-          <img src="/images/logo.png" alt="" className='xsm:w-8 xsm:h-8' />
+          <img src="/images/Logo.png" alt="" className='xsm:w-8 xsm:h-8' />
           </div>
           </div>
 

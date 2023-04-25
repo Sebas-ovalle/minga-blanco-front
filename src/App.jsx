@@ -1,12 +1,8 @@
 import apiUrl from '../api'
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import Footer from './components/Footer'
+import Main from './layout/Main'
 import Index from './components/Index'
-import Navbar from './components/Navbar'
-
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,12 +11,11 @@ function App() {
 
   return (
     <>
-      <Navbar />
-
-      <Index />
-
-      <Footer />
       
+     <Main> 
+     <Index /> 
+     </Main> 
+
      {/* movile */}
     
         <div className='xsm:w-full xsm:min-h-screen xsm:bg-[url(/images/branden-movile.png)] xsm:bg-no-repeat xsm:bg-cover xsm:bg-center md:hidden'>
@@ -48,10 +43,10 @@ function App() {
 
 
               <div className="xsm:self-center xsm:m-6 xsm:h-32 md:hidden"><button className="xsm:rounded-3xl xsm:text-white xsm:bg-gradient-to-b xsm:from-[#564ae7] xsm:to-[#564ae9] xsm:h-12 xsm:w-64">Stared</button></div>
-
           </div>
-
+          
         </div>
+        
 
     </>
   

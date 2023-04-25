@@ -47,6 +47,7 @@ function App() {
            <div className='flex justify-center '>
           <img src="/images/person.png" alt="" />
           </div>
+          
           <div className='flex justify-center '>
           <img className='mb-10' src="/images/image-3.png" alt="" />
           </div>
@@ -76,7 +77,7 @@ function App() {
 
         <img src="/images/Frame-logo.png" alt="" />
         <img src="/images/Frame-sociales.png" alt="" />
-        
+
         
          </div>
          </div>

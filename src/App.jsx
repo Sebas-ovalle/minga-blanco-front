@@ -77,6 +77,7 @@ function App() {
         <img src="/images/Frame-logo.png" alt="" />
         <img src="/images/Frame-sociales.png" alt="" />
         
+        
          </div>
          </div>
         </footer>

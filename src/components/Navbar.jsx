@@ -20,7 +20,7 @@ export default function Navbar() {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="#564ae7"
-                className="w-[57px] h-[55px]"
+                className="w-[57px] h-[55px] m-2"
               >
                 <path
                   strokeLinecap="round"
@@ -35,12 +35,13 @@ export default function Navbar() {
           <li><a className="flex px-4 py-2 text-white-800 hover:bg-violet2 font-medium" href="#">Home</a></li>
           <li><a className="flex px-4 py-2 text-white-800 hover:bg-violet2 font-medium" href="#">Manga</a></li>
           <li><a className="flex px-4 py-2 text-white-800 hover:bg-violet2 font-medium" href="#">Logout</a></li>
+          <li><a className="flex px-4 py-2 text-white-800 hover:bg-violet2 font-medium" href="#">Favorite</a></li>
         </ul>
         </div>
       )}    
       </div>
           <a href="#">
-          <img src="/images/Logo.png" className="w-[60px] h-[60px]" alt="Logo Minga" />
+          <img src="/images/Logo.png" className="w-[50px] h-[50px] m-4" alt="Logo Minga" />
           </a>
       </nav>
 

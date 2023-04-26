@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer>
     <div className ='w-full flex justify-center mt-10 xsm:hidden'>
-          <img src="/images/Rectangle-14.png"  alt="" className='w-screen h-64 rounded-bl-full rounded-br-full xsm:hidden'/>
+       <img src="/images/Rectangle-14.png"  alt="" className='w-screen h-64 rounded-bl-full rounded-br-full xsm:hidden'/>
        </div>
        <div className ='w-12/12 flex justify-center mb-6 xsm:hidden'>
 
@@ -16,7 +16,6 @@ export default function Footer() {
         <img src="/images/Frame-logo.png" alt="" />
         <img src="/images/Frame-sociales.png" alt="" />
 
-        
         </div>
     </div>
     </footer>

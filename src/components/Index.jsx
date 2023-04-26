@@ -31,7 +31,10 @@ export default function Index() {
       
       <div className='w-full flex justify-center mt-6 xsm:hidden'>
 
+
         <div className='w-full flex bg-[url(/images/frame.png)] bg-no-repeat bg-cover bg-center m-6 xsm:hidden rounded-2xl' >
+
+
 
           <div className='w-8/12 flex justify-between items-center xsm:hidden mr-4'>
           
